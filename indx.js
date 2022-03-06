@@ -31,6 +31,7 @@
            console.log("User Logged in", user)
            email.value = "";
            password.value = "";
+           window.location = "https://ayoshubh.github.io/Contact-Form-with-firebase-Realtime-db/";
         })
         .catch((error) => {
             const errorCode = error.code;
@@ -51,7 +52,7 @@
         const user = userCredential.user;
         alert("User Logged in")
         console.log("User =>", user)
-        window.location = "http://www.google.com";
+        window.location = "https://ayoshubh.github.io/Contact-Form-with-firebase-Realtime-db/";
         })
         .catch((error) => {
        const errorCode = error.code;

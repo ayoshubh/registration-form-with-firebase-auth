@@ -1,0 +1,18 @@
+body{
+    background-color: darkred;
+}
+
+
+.email{
+    position: relative;
+    left: 400px;
+    background-color: blueviolet;
+    padding: 50px;
+    margin: 80px;
+    font-size: 30px;
+    width: max-content;
+    height: max-content;
+}
+
+
+
